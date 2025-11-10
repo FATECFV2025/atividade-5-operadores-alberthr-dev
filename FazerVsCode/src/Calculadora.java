@@ -25,19 +25,14 @@ public class Calculadora {
 
                 System.out.println();
 
-        // ==============================
         // OPERAÇÕES LÓGICAS
-        // ==============================
         System.out.println("LÓGICO E (true && false): " + op.eLogico(true, false));
         System.out.println("LÓGICO OU (true || false): " + op.ouLogico(true, false));
         System.out.println("LÓGICO NÃO (!true): " + op.naoLogico(true));
 
         System.out.println();
 
-        // ==============================
         // OPERAÇÕES DE COMPARAÇÃO
-        // ==============================
-// --- Comparação ---
         System.out.println("\nMAIOR QUE (10 > 5): " + op.maiorQue(10, 5));
         System.out.println("MENOR QUE (10 < 5): " + op.menorQue(10, 5));
         System.out.println("IGUAL A (10 == 5): " + op.eIgualA(10, 5));
